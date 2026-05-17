@@ -1,9 +1,10 @@
 import './App.css';
+import Map from './body/Map.js';
 
 function App() {
   return (
     <div className="App">
-      Hi
+      <Map></Map>
     </div>
   );
 }
