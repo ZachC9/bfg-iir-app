@@ -1,4 +1,5 @@
 import './Map.css';
+import CanadaMap from 'react-canada-map';
 
 function Map() {
   const mapClickHandler = (province, event) => {
