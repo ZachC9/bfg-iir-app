@@ -1,0 +1,16 @@
+.in-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 75px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}

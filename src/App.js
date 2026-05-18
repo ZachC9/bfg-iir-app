@@ -1,10 +1,20 @@
 import './App.css';
 import Map from './body/Map.js';
+import Header from './header/Header.js';
+import Footer from './footer/Footer.js';
 
 function App() {
   return (
-    <div className="App">
-      <Map></Map>
+    <div className='App'>
+      <div className='Header'>
+        <Header></Header>
+      </div>
+      <div className='Body'>
+
+      </div>
+      <div className='Footer'>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }
