@@ -1,6 +1,6 @@
 import './App.css';
-import Map from './body/Map.js';
 import Header from './header/Header.js';
+import Map from './body/Map.js';
 import Footer from './footer/Footer.js';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <Header></Header>
       </div>
       <div className='Body'>
-
+        <Map></Map>
       </div>
       <div className='Footer'>
         <Footer></Footer>

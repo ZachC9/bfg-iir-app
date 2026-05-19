@@ -7,12 +7,17 @@
   color: white;
   font-size: 30px;
 }
+.Body {
+  display: flex;
+  justify-content: center;
+}
 .Footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: rgb(75, 75, 75);
   color: white;
   text-align: center;
+  height: 100px;
 }

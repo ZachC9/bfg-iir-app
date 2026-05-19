@@ -2,7 +2,6 @@
 
 # TODO:
 * Set up Laptop (DONE)
-* Find new framework (NO)
 * Deploy the site for development/showoff purposes (DONE)
 * Create it
 * Hook it up to Google Firebase
