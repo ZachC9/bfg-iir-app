@@ -1,2 +1,12 @@
-.Map {
+.jvm-region {
+  cursor: grab;
+}
+
+.jvm-region:hover {
+  cursor: grab;
+}
+
+.jvm-marker {
+  opacity: 1 !important;
+  visibility: visible !important;
 }

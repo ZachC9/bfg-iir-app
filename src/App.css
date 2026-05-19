@@ -3,6 +3,7 @@
 }
 .Header {
   padding: 1px;
+  height: 150px;
   background: rgb(75, 75, 75);
   color: white;
   font-size: 30px;
@@ -19,5 +20,5 @@
   background-color: rgb(75, 75, 75);
   color: white;
   text-align: center;
-  height: 100px;
+  height: 200px;
 }

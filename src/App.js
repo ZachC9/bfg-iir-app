@@ -10,7 +10,7 @@ function App() {
         <Header></Header>
       </div>
       <div className='Body'>
-        <Map></Map>
+        <Map />
       </div>
       <div className='Footer'>
         <Footer></Footer>
