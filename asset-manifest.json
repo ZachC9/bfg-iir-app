@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bfg-iir-app/static/css/main.4b5ceada.css",
-    "main.js": "/bfg-iir-app/static/js/main.35a5c982.js",
+    "main.css": "/bfg-iir-app/static/css/main.97aca629.css",
+    "main.js": "/bfg-iir-app/static/js/main.470d36bc.js",
     "static/js/453.b850312d.chunk.js": "/bfg-iir-app/static/js/453.b850312d.chunk.js",
     "index.html": "/bfg-iir-app/index.html",
-    "main.4b5ceada.css.map": "/bfg-iir-app/static/css/main.4b5ceada.css.map",
-    "main.35a5c982.js.map": "/bfg-iir-app/static/js/main.35a5c982.js.map",
+    "main.97aca629.css.map": "/bfg-iir-app/static/css/main.97aca629.css.map",
+    "main.470d36bc.js.map": "/bfg-iir-app/static/js/main.470d36bc.js.map",
     "453.b850312d.chunk.js.map": "/bfg-iir-app/static/js/453.b850312d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b5ceada.css",
-    "static/js/main.35a5c982.js"
+    "static/css/main.97aca629.css",
+    "static/js/main.470d36bc.js"
   ]
 }
