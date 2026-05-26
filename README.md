@@ -8,7 +8,8 @@
 
 # Pages
 * Canada map with national company logos imposed on top
-    * The only existing react library of a Canada map is 5 years old, and does not work anymore. I will have to make my own.
+    * Found a good map for the world
+    * Not sure how well it would work with logos
 * Each province map with provincial logos imposed
 * Login page
 * New relationship page

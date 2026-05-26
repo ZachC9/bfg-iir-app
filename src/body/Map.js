@@ -2,7 +2,7 @@ import './Map.css';
 import { useEffect, useRef } from "react";
 import jsVectorMap from "jsvectormap";
 import "jsvectormap/dist/jsvectormap.css";
-import "jsvectormap/dist/maps/canada.js";
+import "jsvectormap/dist/maps/world.js";
 
 export default function Map() {
   const mapRef = useRef(null);
@@ -10,21 +10,22 @@ export default function Map() {
   useEffect(() => {
     if (!mapRef.current) return;
 
-    // IMPORTANT: clear old SVG/content
+    //Prevents duplicate
     mapRef.current.innerHTML = "";
 
+    //Settings for the map
     const map = new jsVectorMap({
       selector: mapRef.current,
-      map: 'canada',
+      map: 'world',
 
+      //Marker settings
       markers: [
         {
           name: "Winnipeg",
-          coords: [377, 724],
+          coords: [0, 0],
         },
       ],
       markersSelectable: true,
-
       markerStyle: {
         initial: {
           fill: "#ff0000",
@@ -32,6 +33,7 @@ export default function Map() {
         },
       },
 
+      //Province settings
       regionStyle: {
         initial: {
           fill: "#616161",
